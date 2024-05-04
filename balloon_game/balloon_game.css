@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.game-area {
+    width: 80%;
+    height: 400px;
+    margin: 20px auto;
+    position: relative;
+    background-color: skyblue;
+    overflow: hidden;
+}
+
+.balloon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+
+#score {
+    margin-top: 5px;
+    font-size: 20px;
+    color: yellowgreen;
+}
+
+button#startButton {
+    color: cornflowerblue;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+a {
+    color: whitesmoke;
+}

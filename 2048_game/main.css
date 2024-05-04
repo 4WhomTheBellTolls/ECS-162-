@@ -1,0 +1,116 @@
+body {
+    background: white;
+}
+
+.container {
+    padding-top: 50px;
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+
+.main .gameBody {
+    height: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    background: lightgreen;
+    border-radius: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.main .gameBody .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .gameBody .row .item {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    background: #fff;
+    text-align: center;
+    line-height: 70px;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 5px;
+    color: #666;
+    font-family: "microsoft yahei";
+}
+
+.main .gameRule {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.main .gameScore {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+
+.modal {
+    margin-top: 150px;
+
+}
+
+.modal .modal-header h4 {
+    text-align: left;
+    font-weight: bold;
+}
+
+.modal .modal-dialog {
+    width: 300px;
+    margin: 0 auto;
+
+}
+
+.modal .modal-body {
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+}
+
+
+
+
+.footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.header{
+    text-align: center;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+}
+
+.maxScore{
+    margin-top: 5px;
+    font-size: 20px;
+    color: yellowgreen;
+}
+.content{
+    text-align: center;
+}
