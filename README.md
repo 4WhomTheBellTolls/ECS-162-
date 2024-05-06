@@ -1,5 +1,7 @@
 # ECS-162-lab2
 
+link to the website:https://4whomthebelltolls.github.io/ECS-162-/
+
 Description of the Game Arcade Website
 Overview:
 The game arcade website is designed as an interactive platform hosting three classic games: Snake, Balloon Pop, and 2048. Each game has been carefully integrated into the site with a consistent visual theme and responsive design to ensure an engaging user experience across various devices.
